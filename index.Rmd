@@ -2,7 +2,9 @@
 title: "flexdash"
 author: "Marcel Vélez"
 date: "2023-02-22"
-output: html_document
+output: 
+  flexdashboard::flex_dashboard:
+    storyboard: true
 ---
 
 ```{r setup, include=FALSE}
